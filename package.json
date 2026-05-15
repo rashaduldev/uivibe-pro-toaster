@@ -1,0 +1,68 @@
+{
+  "name": "uivibe-pro-toaster",
+  "version": "1.0.0",
+  "description": "Premium, universal, zero-dependency toast notifications under 5 kB. Works with Vanilla JS, React, Vue, Next.js and any other framework via ESM, CJS, or CDN.",
+  "keywords": [
+    "toast",
+    "notification",
+    "snackbar",
+    "alert",
+    "react",
+    "vue",
+    "nextjs",
+    "vanilla",
+    "typescript",
+    "umd",
+    "esm",
+    "lightweight",
+    "promise",
+    "glassmorphism",
+    "a11y",
+    "swipe",
+    "uivibe"
+  ],
+  "author": "uivibe",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/index.global.js",
+  "jsdelivr": "./dist/index.global.js",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "size": "gzip -c dist/index.global.js | wc -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uivibe/uivibe-pro-toaster"
+  },
+  "homepage": "https://github.com/uivibe/uivibe-pro-toaster#readme",
+  "bugs": {
+    "url": "https://github.com/uivibe/uivibe-pro-toaster/issues"
+  }
+}
