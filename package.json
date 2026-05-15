@@ -1,16 +1,23 @@
 {
   "name": "uivibe-pro-toaster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Premium, universal, zero-dependency toast notifications under 5 kB. Works with Vanilla JS, React, Vue, Next.js and any other framework via ESM, CJS, or CDN.",
   "keywords": [
     "toast",
+    "toast-notification",
+    "toast-library",
     "notification",
+    "notification-library",
     "snackbar",
     "alert",
     "react",
+    "react-toast",
     "vue",
+    "vue-toast",
     "nextjs",
+    "nextjs-toast",
     "vanilla",
+    "vanilla-js",
     "typescript",
     "umd",
     "esm",
@@ -59,10 +66,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uivibe/uivibe-pro-toaster"
+    "url": "https://github.com/rashaduldev/uivibe-pro-toaster"
   },
-  "homepage": "https://github.com/uivibe/uivibe-pro-toaster#readme",
+  "homepage": "https://uivibe-pro-toaster-landing.vercel.app/",
   "bugs": {
-    "url": "https://github.com/uivibe/uivibe-pro-toaster/issues"
+    "url": "https://github.com/rashaduldev/uivibe-pro-toaster/issues"
   }
 }

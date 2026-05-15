@@ -1,6 +1,24 @@
 # uivibe-pro-toaster
 
+Lightweight toast notification library for React, Next.js, Vue, and Vanilla JavaScript.
+
+[![npm version](https://img.shields.io/npm/v/uivibe-pro-toaster.svg)](https://www.npmjs.com/package/uivibe-pro-toaster)
+[![npm downloads](https://img.shields.io/npm/dm/uivibe-pro-toaster.svg)](https://www.npmjs.com/package/uivibe-pro-toaster)
+[![license](https://img.shields.io/npm/l/uivibe-pro-toaster.svg)](./LICENSE)
+[![live demo](https://img.shields.io/badge/live-demo-6366f1.svg)](https://uivibe-pro-toaster-landing.vercel.app/)
+
 Premium, universal, zero-dependency toast notifications under 5 kB gzipped. Works in **Vanilla JS, React, Vue, Next.js, Svelte, Solid, PHP/Laravel, Python/Django** — anywhere you can run a script tag or import a module.
+
+## Links
+
+- Live demo: https://uivibe-pro-toaster-landing.vercel.app/
+- npm package: https://www.npmjs.com/package/uivibe-pro-toaster
+- GitHub repository: https://github.com/rashaduldev/uivibe-pro-toaster
+- Issues: https://github.com/rashaduldev/uivibe-pro-toaster/issues
+
+- Latest version: `1.0.0`
+- License: `MIT`
+- Install command: `npm install uivibe-pro-toaster`
 
 - ⚡ **< 5 kB gzipped** — ESM / CJS / Browser-global (UMD-style IIFE)
 - 🧊 **Glassmorphism** with `backdrop-filter`, beautiful built-in SVG icons
@@ -19,6 +37,7 @@ npm install uivibe-pro-toaster
 # or
 pnpm add uivibe-pro-toaster
 yarn add uivibe-pro-toaster
+bun add uivibe-pro-toaster
 ```
 
 CDN (browser global `Toast`):
@@ -26,6 +45,25 @@ CDN (browser global `Toast`):
 ```html
 <script src="https://unpkg.com/uivibe-pro-toaster/dist/index.global.js"></script>
 <script>Toast.success("Hello!");</script>
+```
+
+## Usage guide
+
+Choose the import style that matches your app:
+
+```ts
+import { toast } from "uivibe-pro-toaster";
+```
+
+```js
+const { toast } = require("uivibe-pro-toaster");
+```
+
+```html
+<script src="https://unpkg.com/uivibe-pro-toaster/dist/index.global.js"></script>
+<script>
+  Toast.success("Saved!");
+</script>
 ```
 
 ## Quick start
